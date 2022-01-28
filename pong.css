@@ -1,0 +1,17 @@
+#ball {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+}
+
+#paddle1 {
+    width: 24px;
+    height: 192px;
+    position: fixed;
+}
+
+#paddle2 {
+    width: 24px;
+    height: 192px;
+    position: fixed;
+}
