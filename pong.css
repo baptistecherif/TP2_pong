@@ -15,3 +15,12 @@
     height: 192px;
     position: fixed;
 }
+
+body {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
