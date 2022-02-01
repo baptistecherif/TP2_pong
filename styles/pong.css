@@ -1,0 +1,47 @@
+#paddle_player1{
+    width: 24px;
+    height: 192px;
+    position: fixed;
+    left: 0px;
+    top: 40%;
+}
+
+#paddle_player2{
+    width: 24px;
+    height: 192px;
+    position: fixed;
+    right: 0px;
+    top: 40%;
+}
+
+#ball {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    left: 48%;
+    top: 40%;
+}
+
+#scores{
+    position: fixed;
+    font-size: 70px;
+    font-weight: bold;
+    left: 50%;
+}
+
+#score_player1{
+    float: left;
+}
+
+#score_player2{
+    float: right;
+}
+
+body {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+}

@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Pong Game</title>
-    <link rel="stylesheet" href="pong.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pong.css">
+    <title>Pong</title>
 </head>
+
 <body>
-<img src="images/ball.png" id="ball" alt="ball">
-<img src="images/paddle.jpg" id="paddle1" alt="paddle1">
-<img src="images/paddle.jpg" id="paddle2" alt="paddle2">
 
-<div id="scores"></div>
+<div id="scores">
+    <div id="score_player1"></div>
+    -
+    <div id="score_player2"></div>
+</div>
 
-<script src="pong.js"></script>
+<img id="ball" src="images/ball.png" alt="ball">
+<img class="paddle" id="paddle_player1" src="images/paddle.jpg" alt="paddle player 1">
+<img class="paddle" id="paddle_player2"  src="images/paddle.jpg" alt="paddle player 2">
+<script src="js/pong.js"></script>
+
 </body>
 </html>
