@@ -2,18 +2,23 @@
     width: 64px;
     height: 64px;
     position: fixed;
+    left: 50%;
+    top: 50%
 }
 
 #paddle1 {
     width: 24px;
     height: 192px;
     position: fixed;
+    bottom: 40%;
 }
 
 #paddle2 {
     width: 24px;
     height: 192px;
     position: fixed;
+    right: 0px;
+    bottom: 40%;
 }
 
 body {
